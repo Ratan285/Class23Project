@@ -73,6 +73,7 @@ if (keyDown(RIGHT_ARROW)){
 }
 if (keyDown(LEFT_ARROW)){
 	helicopterSprite.x=helicopterSprite.x-5;
+	
 }
 
   packageSprite.x= packageBody.position.x 

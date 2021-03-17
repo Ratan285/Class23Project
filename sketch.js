@@ -69,7 +69,10 @@ function draw() {
   background(0);
  
 if (keyDown(RIGHT_ARROW)){
-	
+	helicopterSprite.x=helicopterSprite.x+5;
+}
+if (keyDown(LEFT_ARROW)){
+	helicopterSprite.x=helicopterSprite.x-5;
 }
 
   packageSprite.x= packageBody.position.x 

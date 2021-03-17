@@ -68,7 +68,9 @@ function draw() {
   rectMode(CENTER);
   background(0);
  
-if (keyDown(RIGHT_ARROW)){}
+if (keyDown(RIGHT_ARROW)){
+	
+}
 
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
